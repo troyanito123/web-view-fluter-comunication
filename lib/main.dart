@@ -80,7 +80,8 @@ class _WebViewExampleState extends State<WebViewExample> {
           );
         },
       )
-      ..loadRequest(Uri.parse('https://pasanaq-sol.web.app/1030447'));
+      ..loadRequest(Uri.parse(
+          'https://pasanaq-sol-dev--pr66-integracion-webview-zrqy8859.web.app/1030447'));
 
     if (controller.platform is AndroidWebViewController) {
       AndroidWebViewController.enableDebugging(true);
